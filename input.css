@@ -19,6 +19,10 @@
   @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 
+.section-content {
+  @apply max-w-3xl mx-auto text-xl text-grayishBlue leading-9 text-center;
+}
+
 body {
   background-image: url(../assets/img/bg-header-desktop.png);
   background-repeat: no-repeat;
