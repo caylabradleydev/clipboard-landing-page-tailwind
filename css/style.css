@@ -529,6 +529,10 @@ h5 {
   margin-bottom: 10rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -541,10 +545,6 @@ h5 {
   margin-bottom: 1.5rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -553,12 +553,12 @@ h5 {
   width: 8rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .max-w-6xl {
@@ -668,6 +668,11 @@ h5 {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .leading-9 {
   line-height: 2.25rem;
 }
@@ -736,7 +741,6 @@ h5 {
   margin-right: auto;
   max-width: 48rem;
   text-align: center;
-  font-size: 1.25rem;
   line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
@@ -752,6 +756,11 @@ body {
   body {
     bakground-image: url("../assets/img/bg-header-mobile.png");
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
 
 .hover\:text-strongCyan:hover {
